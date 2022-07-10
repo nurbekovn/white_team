@@ -49,14 +49,7 @@ public class Main {
             System.out.println(truck);
         }
         System.out.println();
-//
-//        System.out.println("-----------------Drivers----------------");
-//        System.out.println(" # |  Driver            |  Bus          ");
-//        System.out.println("---+--------------------+---------------");
-//
-//        for (Object driver : drivers) {
-//            System.out.println(driver);
-//        }
+
 
         while (true) {
             Scanner scanner = new Scanner(System.in);
@@ -66,12 +59,15 @@ public class Main {
 
             for (Truck t : trucks) {
                 if (a == t.getIdOfTruck()) {
-                    System.out.println("-----------------Drivers----------------" + t.getIdOfTruck());
-                    System.out.println(" # |  Driver            |  Bus          " + t.getNameOfTruck());
-                    System.out.println("---+--------------------+---------------"  + t.getDriverOfTruck());
-                    System.out.println("Truck State: " + t.getState());
+                    System.out.println("-----------------Trucks----------------");
+                    System.out.println(" # |  Trucks            |  Driver      |      State      |");
+                    System.out.println("---+--------------------+--------------");
+                    System.out.print( t.getIdOfTruck());
+                    System.out.print("  | "+ t.getNameOfTruck()+"\t\t|");
+                    System.out.print("\t\t\t"+ t.getDriverOfTruck());
+                    System.out.print("\t|\t"+ t.getState()+"\n");
 
-                    System.out.println("Press 1 to change Driver");
+                    System.out.println("\nPress 1 to change Driver");
                     System.out.println("Press 2 to send to the Route");
                     System.out.println("Press 3 ot send to the Repairing");
 
