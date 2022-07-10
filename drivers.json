@@ -1,0 +1,17 @@
+[
+  {
+    "idOfDriver": 1,
+    "nameOfDriver": "Petr",
+    "busOfDriver": ""
+  },
+  {
+    "idOfDriver": 2,
+    "nameOfDriver": "Askar",
+    "busOfDriver": ""
+  },
+  {
+    "idOfDriver": 3,
+    "nameOfDriver": "Uson",
+    "busOfDriver": ""
+  }
+]
