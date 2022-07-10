@@ -1,0 +1,20 @@
+[
+  {
+    "idOfTruck": 1,
+    "nameOfTruck": "Renault Magnum",
+    "driverOfTruck": "",
+    "state": "BASE"
+  },
+  {
+    "idOfTruck": 2,
+    "nameOfTruck": "Volvo FH12",
+    "driverOfTruck": "",
+    "state": "BASE"
+  },
+  {
+    "idOfTruck": 3,
+    "nameOfTruck": "DAF XT",
+    "driverOfTruck": "",
+    "state": "BASE"
+  }
+]
